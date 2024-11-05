@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ZainUlAbdeen/IdeaProjects/OrangeHRM">
+        <classes>
+            <class name="testcases.AdminPagetest">
+                <methods>
+                    <include name="clickonadmin"/>
+                    <include name="validatetheadminpageurl"/>
+                    <include name="clickonaddbutton"/>
+                    <include name="validatetheuseraddurl"/>
+                    <include name="selectvaluefromuserrole"/>
+                    <include name="selectstatus"/>
+                    <include name="enterusernamepassword"/>
+                </methods>
+            </class>
+            <class name="testcases.Dashboardtest">
+                <methods>
+                    <include name="validatethepagetitle"/>
+                    <include name="employeeonleavesetting"/>
+                    <include name="verifythepopup"/>
+                    <include name="clickonclosebtn"/>
+                </methods>
+            </class>
+            <class name="testcases.LoginPagetest">
+                <methods>
+                    <include name="login"/>
+                    <include name="validatelogotest"/>
+                    <include name="logintopagetest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
